@@ -541,7 +541,7 @@
     ],
     "Microsoft": [
         {
-            "name": "Microsoft Certified: Azure Administrator Associate",
+            "name": "Microsoft Certified: Azure Administrator Associate | AZ-104",
             "level": "Associate",
             "questions": [
                 { "id": 51, "question": "Which Azure service is used to manage virtual networks?", "answers": ["Azure Virtual Network", "Azure Storage Account", "Azure SQL Database", "Azure Key Vault"], "correct": "Azure Virtual Network" },
@@ -627,7 +627,7 @@
             ]
         },
         {
-            "name": "Microsoft Certified: Azure Solutions Architect Expert",
+            "name": "Microsoft Certified: Azure Solutions Architect Expert | AZ-305",
             "level": "Expert",
             "questions": [
                 { "id": 131, "question": "Which Azure service is used to design high-availability solutions?", "answers": ["Azure Availability Zones", "Azure Blob Storage", "Azure Key Vault", "Azure Functions"], "correct": "Azure Availability Zones" },
@@ -743,7 +743,7 @@
             ]
         },
         {
-            "name": "Microsoft Certified: DevOps Engineer Expert",
+            "name": "Microsoft Certified: DevOps Engineer Expert | AZ-400",
             "level": "Expert",
             "questions": [
                 { "id": 211, "question": "Which service provides CI/CD pipelines in Azure?", "answers": ["Azure DevOps Pipelines", "Azure Functions", "Azure App Service", "Azure Logic Apps"], "correct": "Azure DevOps Pipelines" },
@@ -829,7 +829,7 @@
               ]
         },
         {
-            "name": "Microsoft Certified: Security, Compliance, and Identity Fundamentals",
+            "name": "Microsoft Certified: Security, Compliance, and Identity Fundamentals | SC-900",
             "level": "Fundamental",
             "questions": [
                 { "id": 291, "question": "Which service provides identity management in Azure?", "answers": ["Azure Active Directory", "Azure Key Vault", "Azure Monitor", "Azure Functions"], "correct": "Azure Active Directory" },
@@ -917,7 +917,7 @@
     ],
     "Google Cloud": [
         {
-            "name": "Associate Cloud Engineer",
+            "name": "Associate Cloud Engineer | ACE",
             "level": "Associate",
             "description": "Deploy applications, monitor operations, and manage enterprise solutions on Google Cloud.",
             "questions": [
@@ -994,7 +994,7 @@
             ]
         },
         {
-            "name": "Professional Cloud Architect",
+            "name": "Professional Cloud Architect | PCA",
             "level": "Professional",
             "description": "Design, develop, and manage robust, secure, scalable, highly available, and dynamic solutions on GCP.",
             "questions": [
@@ -1081,7 +1081,7 @@
             ]
         },
         {
-            "name": "Professional Data Engineer",
+            "name": "Professional Data Engineer | PDE",
             "level": "Professional",
             "description": "Design and build data processing systems, and create machine learning models on GCP.",
             "questions": [
@@ -1185,7 +1185,7 @@
             ]
         },
         {
-            "name": "Professional Cloud Network Engineer",
+            "name": "Professional Cloud Network Engineer | PCNE",
             "level": "Professional",
             "description": "Implement and manage network architectures in Google Cloud.",
             "questions": [
@@ -1273,7 +1273,7 @@
             ]
         },
         {
-            "name": "Professional Cloud Security Engineer",
+            "name": "Professional Cloud Security Engineer | PCSE",
             "level": "Professional",
             "description": "Design and implement secure infrastructure on Google Cloud.",
             "questions": [
@@ -1360,7 +1360,7 @@
               ]
         },
         {
-            "name": "Professional Collaboration Engineer",
+            "name": "Professional Collaboration Engineer | PCE",
             "level": "Professional",
             "description": "Transform business objectives into tangible configurations, policies, and security practices in Google Workspace.",
             "questions": [
@@ -1447,7 +1447,7 @@
               ]
         },
         {
-            "name": "Professional Machine Learning Engineer",
+            "name": "Professional Machine Learning Engineer | PML",
             "level": "Professional",
             "description": "Design, build, and productionize ML models to solve business challenges using Google Cloud.",
             "questions": [
@@ -1504,7 +1504,7 @@
               ]
         },
         {
-            "name": "Professional DevOps Engineer",
+            "name": "Professional DevOps Engineer | PDE",
             "level": "Professional",
             "description": "Efficiently build software delivery pipelines, deploy and monitor services, and manage incidents on GCP.",
             "questions": [
