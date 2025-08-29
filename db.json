@@ -541,7 +541,7 @@
     ],
     "Microsoft": [
         {
-            "name": "Microsoft Certified: Azure Administrator Associate | AZ-104",
+            "name": "Microsoft Certified - Azure Administrator Associate | AZ-104",
             "level": "Associate",
             "questions": [
                 { "id": 51, "question": "Which Azure service is used to manage virtual networks?", "answers": ["Azure Virtual Network", "Azure Storage Account", "Azure SQL Database", "Azure Key Vault"], "correct": "Azure Virtual Network" },
@@ -627,7 +627,7 @@
             ]
         },
         {
-            "name": "Microsoft Certified: Azure Solutions Architect Expert | AZ-305",
+            "name": "Microsoft Certified - Azure Solutions Architect Expert | AZ-305",
             "level": "Expert",
             "questions": [
                 { "id": 131, "question": "Which Azure service is used to design high-availability solutions?", "answers": ["Azure Availability Zones", "Azure Blob Storage", "Azure Key Vault", "Azure Functions"], "correct": "Azure Availability Zones" },
@@ -743,7 +743,7 @@
             ]
         },
         {
-            "name": "Microsoft Certified: DevOps Engineer Expert | AZ-400",
+            "name": "Microsoft Certified - DevOps Engineer Expert | AZ-400",
             "level": "Expert",
             "questions": [
                 { "id": 211, "question": "Which service provides CI/CD pipelines in Azure?", "answers": ["Azure DevOps Pipelines", "Azure Functions", "Azure App Service", "Azure Logic Apps"], "correct": "Azure DevOps Pipelines" },
@@ -829,7 +829,7 @@
               ]
         },
         {
-            "name": "Microsoft Certified: Security, Compliance, and Identity Fundamentals | SC-900",
+            "name": "Microsoft Certified - Security, Compliance, and Identity Fundamentals | SC-900",
             "level": "Fundamental",
             "questions": [
                 { "id": 291, "question": "Which service provides identity management in Azure?", "answers": ["Azure Active Directory", "Azure Key Vault", "Azure Monitor", "Azure Functions"], "correct": "Azure Active Directory" },
