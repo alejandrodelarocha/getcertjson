@@ -5,7 +5,7 @@
             "name": "AWS Certified Solutions Architect – Associate | SAA–CO3",
             "level": "Associate",
             "questions": [
-                { "id": 1, "question": "WhichCCCCCCCCCCCCCC AWS service is used for object storage?", "answers": ["Amazon EC2", "Amazon S3", "Amazon RDS", "Amazon VPC"], "correct": "Amazon S3" },
+                { "id": 1, "question": "Which AWS service is used for object storage?", "answers": ["Amazon EC2", "Amazon S3", "Amazon RDS", "Amazon VPC"], "correct": "Amazon S3" },
                 { "id": 2, "question": "What is the main benefit of using Auto Scaling in AWS?", "answers": ["Encrypts data in transit", "Automatically adjusts the number of EC2 instances", "Balances traffic between regions", "Monitors CloudTrail logs"], "correct": "Automatically adjusts the number of EC2 instances" },
                 { "id": 3, "question": "Which AWS service provides a managed relational database?", "answers": ["Amazon DynamoDB", "Amazon Redshift", "Amazon RDS", "Amazon S3"], "correct": "Amazon RDS" },
                 { "id": 4, "question": "Which AWS feature allows you to define infrastructure as code?", "answers": ["AWS CloudFormation", "AWS IAM", "AWS Lambda", "Amazon S3"], "correct": "AWS CloudFormation" },
