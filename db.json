@@ -159,7 +159,7 @@
     ],
     "correct": "AWS Key Management Service (KMS)"
   }
-]{
+,{
   "id": 1,
   "question": "What is the main purpose of an Amazon S3 bucket policy?",
   "answers": [
@@ -169,7 +169,7 @@
     "To configure access to a bucket for a user group"
   ],
   "correct": "To control download actions from an SDK on behalf of users"
-}
+},
 {
   "id": 2,
   "question": "What is a key benefit of using AWS Lake Formation?",
@@ -180,7 +180,7 @@
     "Does not integrate with other AWS services like Athena, Glue, Redshift or QuickSight"
   ],
   "correct": "Provides data warehousing and OLAP services, as well as governance and auditing capabilities"
-}
+},
 {
   "id": 3,
   "question": "How do you increase the memory size of an Elastic Beanstalk environment?",
@@ -191,7 +191,7 @@
     "Change the platform version through console UI"
   ],
   "correct": "Update the .ebextensions/01-rds-environment.config file to increase the RAM allocated by default based on the instance type selected"
-}
+},
 {
   "id": 4,
   "question": "Which of the following Amazon S3 operations requires a write operation?",
@@ -202,7 +202,7 @@
     "S3:WriteObject"
   ],
   "correct": "S3:PutObject"
-}
+},
 {
   "id": 7,
   "question": "What type of data storage is suitable for a static website?",
@@ -213,7 +213,7 @@
     "DynamoDB and its global consistency feature"
   ],
   "correct": "Object Store like Amazon S3"
-}
+},
 {
   "id": 10,
   "question": "What is the name of Amazon's managed streaming service for real-time data processing?",
