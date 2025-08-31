@@ -5,7 +5,6 @@
             "name": "AWS Certified Solutions Architect – Associate | SAA–CO3",
             "level": "Associate",
             "questions": [
-                [
                 {"id":1,"question":"A company needs to restrict VM creation to specific regions and SKUs. Which Azure feature should they use?","answers":["Azure Policy","Role-Based Access Control","Management Groups","Resource Locks"],"correct":"Azure Policy"},
                 {"id":2,"question":"You need to ensure sensitive data in Azure SQL Database is encrypted at rest and in transit. Which combination achieves this?","answers":["TDE and SSL/TLS","Always Encrypted and SSL/TLS","Transparent Data Encryption only","SSL/TLS only"],"correct":"Always Encrypted and SSL/TLS"},
                 {"id":3,"question":"An organization wants to monitor VM performance and receive alerts for CPU spikes. Which service is best?","answers":["Azure Monitor","Azure Security Center","Azure Advisor","Azure Log Analytics"],"correct":"Azure Monitor"},
