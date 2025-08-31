@@ -1718,7 +1718,8 @@
                 { "id": 290, "question": "Which service provides automated deployment across multiple environments?", "answers": ["Azure Pipelines", "Azure DevOps", "Azure Boards", "Azure Artifacts"], "correct": "Azure Pipelines" }
               ]
         },
-        {"name": "Microsoft Certified: Azure Developer Associate | AZ-204",
+        {
+            "name": "Microsoft Certified: Azure Developer Associate | AZ-204",
             "level": "Associate",
             "questions": [
                     {"id":1,"question":"You need to implement a durable, serverless function that triggers on blob upload, processes data, and stores results in Cosmos DB. Which services should be used?","answers":["Azure Functions + Blob Storage + Cosmos DB","Logic Apps only","App Service only","Azure SQL Database only"],"correct":"Azure Functions + Blob Storage + Cosmos DB"},
