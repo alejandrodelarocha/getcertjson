@@ -246,12 +246,7 @@
   {
     "id": 1,
     "question": "You need to store a large number of images for your web application. Which AWS service is best suited for this task?",
-    "answers": [
-      "Amazon RDS",
-      "Amazon SQS",
-      "Amazon DynamoDB",
-      "Amazon S3"
-    ],
+    "answers": ["Amazon RDS", "Amazon SQS", "Amazon DynamoDB", "Amazon S3"],
     "correct": "Amazon S3"
   },
   {
@@ -268,12 +263,7 @@
   {
     "id": 3,
     "question": "Your application needs to store data with a flexible schema. Which service would you use?",
-    "answers": [
-      "Amazon EKS",
-      "Amazon DynamoDB",
-      "Amazon Redshift",
-      "Amazon RDS"
-    ],
+    "answers": ["Amazon EKS", "Amazon DynamoDB", "Amazon Redshift", "Amazon RDS"],
     "correct": "Amazon DynamoDB"
   },
   {
@@ -282,7 +272,7 @@
     "answers": [
       "Use Amazon ECS container service, add a new instance and set the load balancer to distribute the traffic.",
       "Use Auto Scaling Group with Scheduled Action",
-      "Use Step Functions to orchestrate scaling ",
+      "Use Step Functions to orchestrate scaling",
       "Create multiple Launch Configurations"
     ],
     "correct": "Use Auto Scaling Group with Scheduled Action"
@@ -301,80 +291,70 @@
   {
     "id": 6,
     "question": "A client wishes to store sensitive data. Which service is suitable for storing secure data?",
-    "answers": [
-      "AWS Key Management Service (KMS)",
-      "Amazon S3",
-      "Amazon DynamoDB",
-      "Amazon RDS"
-    ],
+    "answers": ["AWS Key Management Service (KMS)", "Amazon S3", "Amazon DynamoDB", "Amazon RDS"],
     "correct": "AWS Key Management Service (KMS)"
-  }
-,{
-  "id": 1,
-  "question": "What is the main purpose of an Amazon S3 bucket policy?",
-  "answers": [
-    "To restrict access to a specific file within the bucket",
-    "To control download actions from an SDK on behalf of users",
-    "To define how objects are stored and deleted in a bucket",
-    "To configure access to a bucket for a user group"
-  ],
-  "correct": "To control download actions from an SDK on behalf of users"
-},
-{
-  "id": 2,
-  "question": "What is a key benefit of using AWS Lake Formation?",
-  "answers": [
-    "Provides data warehousing and OLAP services, as well as governance and auditing capabilities",
-    "Leverages existing storage options such as Amazon S3 or Amazon EBS for data processing jobs",
-    "Uses standard SQL for query execution with performance matching to traditional database systems ",
-    "Does not integrate with other AWS services like Athena, Glue, Redshift or QuickSight"
-  ],
-  "correct": "Provides data warehousing and OLAP services, as well as governance and auditing capabilities"
-},
-{
-  "id": 3,
-  "question": "How do you increase the memory size of an Elastic Beanstalk environment?",
-  "answers": [
-    "Increase the number of instances in the environment configuration file",
-    "Modify the elastic beanstalk instance level to medium, large or x-large",
-    "Update the .ebextensions/01-rds-environment.config file to increase the RAM allocated by default based on the instance type selected",
-    "Change the platform version through console UI"
-  ],
-  "correct": "Update the .ebextensions/01-rds-environment.config file to increase the RAM allocated by default based on the instance type selected"
-},
-{
-  "id": 4,
-  "question": "Which of the following Amazon S3 operations requires a write operation?",
-  "answers": [
-    "S3:GetObject",
-    "S3:PutObject",
-    "S3:DeleteObject",
-    "S3:WriteObject"
-  ],
-  "correct": "S3:PutObject"
-},
-{
-  "id": 7,
-  "question": "What type of data storage is suitable for a static website?",
-  "answers": [
-    "Object Store like Amazon S3",
-    "Database for storing all the data for website usage",
-    "A database storage service with auto scaling support like Aurora and RDS ",
-    "DynamoDB and its global consistency feature"
-  ],
-  "correct": "Object Store like Amazon S3"
-},
-{
-  "id": 10,
-  "question": "What is the name of Amazon's managed streaming service for real-time data processing?",
-  "answers": [
-    "Amazon Redshift",
-    "Amazon DynamoDB",
-    "Kinesis Data Firehose ",
-    "Kinesis Streams, Data Capture and Analytics"
-  ],
-  "correct": "Kinesis Streams, Data Capture and Analytics"
-},
+  },
+  {
+    "id": 7,
+    "question": "What is the main purpose of an Amazon S3 bucket policy?",
+    "answers": [
+      "To restrict access to a specific file within the bucket",
+      "To control download actions from an SDK on behalf of users",
+      "To define how objects are stored and deleted in a bucket",
+      "To configure access to a bucket for a user group"
+    ],
+    "correct": "To configure access to a bucket for a user group"
+  },
+  {
+    "id": 8,
+    "question": "What is a key benefit of using AWS Lake Formation?",
+    "answers": [
+      "Provides data warehousing and OLAP services, as well as governance and auditing capabilities",
+      "Leverages existing storage options such as Amazon S3 or Amazon EBS for data processing jobs",
+      "Simplifies building and securing data lakes, with integration to services like Athena, Glue, Redshift, and QuickSight",
+      "Does not integrate with other AWS services like Athena, Glue, Redshift or QuickSight"
+    ],
+    "correct": "Simplifies building and securing data lakes, with integration to services like Athena, Glue, Redshift, and QuickSight"
+  },
+  {
+    "id": 9,
+    "question": "How do you increase the memory size of an Elastic Beanstalk environment?",
+    "answers": [
+      "Increase the number of instances in the environment configuration file",
+      "Modify the Elastic Beanstalk instance type (e.g., medium, large, x-large)",
+      "Update the .ebextensions/01-rds-environment.config file to increase RAM",
+      "Change the platform version through console UI"
+    ],
+    "correct": "Modify the Elastic Beanstalk instance type (e.g., medium, large, x-large)"
+  },
+  {
+    "id": 10,
+    "question": "Which of the following Amazon S3 operations requires a write operation?",
+    "answers": ["S3:GetObject", "S3:PutObject", "S3:DeleteObject", "S3:WriteObject"],
+    "correct": "S3:PutObject"
+  },
+  {
+    "id": 11,
+    "question": "What type of data storage is suitable for a static website?",
+    "answers": [
+      "Object Store like Amazon S3",
+      "Database for storing all the data for website usage",
+      "A database storage service with auto scaling support like Aurora and RDS",
+      "DynamoDB and its global consistency feature"
+    ],
+    "correct": "Object Store like Amazon S3"
+  },
+  {
+    "id": 12,
+    "question": "What is the name of Amazon's managed streaming service for real-time data processing?",
+    "answers": [
+      "Amazon Redshift",
+      "Amazon DynamoDB",
+      "Kinesis Data Firehose",
+      "Kinesis Streams, Data Capture and Analytics"
+    ],
+    "correct": "Kinesis Streams, Data Capture and Analytics"
+  },
 
                 { "id": 1, "question": "Which AWS service allows developers to run code in response to events?", "answers": ["Amazon EC2", "Amazon RDS", "AWS Lambda", "Amazon S3"], "correct": "AWS Lambda" },
                 { "id": 2, "question": "What is the default maximum retention period for CloudWatch Logs?", "answers": ["7 days", "30 days", "365 days", "Never expires"], "correct": "Never expires" },
